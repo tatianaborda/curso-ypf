@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primera página HTML5</title>
+  <link rel="stylesheet" href="estilos.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+</head>
+<body class="catsandstars">
+  <h1>Hola mundo en HTML5</h1>
+  <p>Este es un párrafo de ejemplo en <span>mi primera página </span> <span>html y  css</span>con estilo.</p>
+  <img src="descarga.png" alt="Imagen de ejemplo">
+  <h2 id="encabezado-2">Mis comidas preferidas</h2>
+  <ul>
+    <li>Pizza</li>
+    <li>Sorrentinos de jamón y queso</li>
+    <li>Asado</li>
+    <li>Sandwich de miga</li>
+    <li>Locro</li>
+  </ul>
+ <h2>Pasos para un buen mate</h2> 
+ <ol class="lista-ordenada">
+  <li>Poner el agua</li>
+  <li>No dejar que hierva el agua, sacarla antes de las primeras burbujas</li>
+  <li>Llenar el mate con 3/4 de tu yerba preferida</li>
+  <li>Tirar un chorrito de agua fria en la yerba en la parte baja de la montañita</li>
+  <li>Tirarle el agua caliente</li>
+ </ol>
+<form action="#">
+  <h2>Formulario de Registro</h2>
+
+  <!-- Campo de texto -->
+  <label for="nombre">Nombre completo:</label><br>
+  <input type="text" id="nombre" name="nombre" placeholder="Ej: Tatiana Borda" required>
+  <br><br>
+
+  <!-- Select -->
+  <label for="pais">País de residencia:</label><br>
+  <select id="pais" name="pais" required>
+    <option value="">Selecciona tu país</option>
+    <option value="ar">Argentina</option>
+    <option value="br">Brasil</option>
+    <option value="fr">Francia</option>
+    <option value="us">Estados Unidos</option>
+  </select>
+  <br><br>
+
+  <!-- Fieldset con radio buttons -->
+  <fieldset>
+    <legend>Género</legend>
+    <input type="radio" id="femenino" name="genero" value="femenino" required>
+    <label for="femenino">Femenino</label><br>
+
+    <input type="radio" id="masculino" name="genero" value="masculino">
+    <label for="masculino">Masculino</label><br>
+
+    <input type="radio" id="otro" name="genero" value="otro">
+    <label for="otro">Otro / Prefiero no decir</label>
+  </fieldset>
+  <br>
+
+  <!-- Otro fieldset -->
+  <fieldset>
+    <legend>Preferencias</legend>
+    <label>
+      <input type="checkbox" name="noticias" value="1">
+      Quiero recibir noticias por email
+    </label><br>
+    <label>
+      <input type="checkbox" name="ofertas" value="1">
+      Quiero recibir ofertas especiales
+    </label>
+  </fieldset>
+  <br>
+
+  <!-- Botón de envío -->
+  <button type="submit">Enviar</button>
+</form>
+<p>Para más información clickea <a href="masinformacion.html" target="_blank">acá</a></p>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+* {
+   margin:0;
+   padding:0;
+}
+
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    margin: 40px;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+}
+    
+
+p {
+   background-color: green;
+   display:none;
+
+}
+span{
+    background-color: brown;
+    display: none;
+}
+   
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.lista-ordenada{
+    background-color: rgb(206, 171, 240);
+    text-size-adjust: 50px;
+}
+
+#encabezado-2{
+    background-color: rgb(104, 104, 248);
+}
+ol {
+ list-style-type: none;
+}
+ul {
+ list-style-type: none;
+}
+
+@media (min-width:768px) {
+  body{
+     background-color:aqua;
+   }
+}
